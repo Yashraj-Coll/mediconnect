@@ -1,0 +1,13 @@
+# Cloned repositories (optional - don't commit cloned repos)
+mediconnect-backend/
+mediconnect-frontend/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+
+# IDE
+.vscode/
+.idea/
+*.iml
