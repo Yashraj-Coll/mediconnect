@@ -206,7 +206,7 @@ Main entities:
 > 💡 **PDF Receipt Generation:** Automated lab test and consultation receipts are generated and sent via email after successful payment.
 
 #### Health Records Management
-![Health Records](docs/screenshots/health-records.png)
+![Health Records](docs/screenshots/health-record.png)
 *Secure digital health records - view, download, and manage all medical documents*
 
 #### Video Consultation (Patient View)
