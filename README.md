@@ -171,12 +171,104 @@ Main entities:
 
 ## 📸 Screenshots
 
-*(Add your screenshots here)*
+### 🏠 Homepage
+![Homepage](docs/screenshots/homepage.png)
+*Modern landing page with intuitive navigation and call-to-action buttons*
 
-![Dashboard]
-![Appointment Booking]
-![Video Consultation]
+---
 
+### 👨‍⚕️ Patient Portal
+
+#### Patient Dashboard
+![Patient Dashboard](docs/screenshots/patient-dashboard.png)
+*Comprehensive patient dashboard with appointments, health metrics, and quick actions*
+
+#### Appointment Booking
+![Appointment Booking](docs/screenshots/patient-appointment-booking.png)
+*Easy-to-use appointment scheduling with doctor selection and time slot booking*
+
+#### AI Health Assistant
+![AI Chat Bot](docs/screenshots/patient-ai-chatbot.png)
+*Intelligent AI-powered chatbot for preliminary health consultations*
+
+#### AI Conversation Example
+![AI Conversation](docs/screenshots/ai-conversation.png)
+*Real-time symptom analysis and health recommendations through AI*
+
+#### Payment Integration
+![Razorpay Payment](docs/screenshots/patient-razorpay-payment.png)
+*Secure payment processing with Razorpay gateway integration*
+
+#### Bills & Payments Management
+![Bills & Payments](docs/screenshots/bills-payments.png)
+*Complete payment history with receipt downloads and transaction tracking*
+
+> 💡 **PDF Receipt Generation:** Automated lab test and consultation receipts are generated and sent via email after successful payment.
+
+#### Health Records Management
+![Health Records](docs/screenshots/Health Records Page)
+*Secure digital health records - view, download, and manage all medical documents*
+
+#### Video Consultation (Patient View)
+![Patient Video Call](docs/screenshots/patient-video-consultation.png)
+*High-quality video consultation interface from patient's perspective*
+
+---
+
+### 🩺 Doctor Portal
+
+#### Doctor Dashboard
+![Doctor Dashboard](docs/screenshots/doctor-dashboard.png)
+*Doctor's control panel with appointment management, patient queue, and analytics*
+
+#### Doctor Profile & Appointment Details
+![Doctor Details](docs/screenshots/doctor-appointment-details.png)
+*Detailed doctor profile with specializations, availability, and patient reviews*
+
+#### Video Consultation (Doctor View)
+![Doctor Video Call](docs/screenshots/doctor-video-consultation.png)
+*Professional video consultation interface with patient medical records access*
+
+---
+
+### 👨‍💼 Admin Portal
+
+#### Admin Dashboard
+![Admin Dashboard](docs/screenshots/admin-dashboard.png)
+*Comprehensive admin panel for system management, user administration, and analytics*
+
+---
+
+### 🔐 Security Features
+
+#### Password Reset with OTP
+![Forgot Password OTP](docs/screenshots/forgot-password-otp.png)
+*Secure password reset flow with OTP verification via email*
+
+> 🔒 **Email Integration:** System sends automated emails for:
+> - OTP verification
+> - Password reset confirmation  
+> - Appointment confirmations
+> - Payment receipts (PDF attachments)
+> - Lab test results
+
+---
+
+### 📄 Sample Documents
+
+#### Lab Test Receipt (PDF)
+*Automatically generated PDF receipt sent via email after payment*
+
+**Receipt includes:**
+- Patient details and contact information
+- Lab test details with pricing
+- Payment information (Razorpay transaction ID)
+- GST breakdown
+- Digital signature and company branding
+
+[View Sample Receipt](docs/screenshots/sample-pdf-receipt.pdf)
+
+---
 ## 🌐 Deployment
 
 ### Backend
